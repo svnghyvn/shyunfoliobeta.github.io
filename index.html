@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My Website</title>
+    <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
+    <style>
+      body {
+        background-color: #ffffff;
+        color: #000000;
+        font-family: 'Inter', sans-serif;
+        margin: 0;
+      }
+      .menu {
+        float: left;
+        width: 20%;
+        padding: 20px;
+        background-color: #ffffff;
+        box-sizing: border-box;
+      }
+      .menu h1 {
+        margin: 0;
+        font-size: 24px;
+        font-weight: bold;
+      }
+      .menu ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        position: relative;
+        margin-top: 40px;
+      }
+      .menu li {
+        margin: 10px 0;
+      }
+      .menu a {
+        color: #000000;
+        text-decoration: none;
+        font-size: 20px;
+        font-weight: normal;
+        display: block;
+        margin-bottom: 10px;
+        padding-bottom: 3px;
+      }
+      .menu a:hover {
+        color: #0000ff;
+      }
+      .main {
+        margin-left: 20%;
+        padding: 20px;
+        box-sizing: border-box;
+      }
+      .main img {
+        width: 100%;
+        height: auto;
+      }
+      .submenu {
+        display: none;
+        background-color: #ffffff;
+        padding: 10px;
+        z-index: 1;
+      }
+
+      .menu li:hover > .submenu {
+      display: block;
+      position: relative;
+      margin-top: 10px;
+      }
+      .submenu a {
+        display: block;
+        font-size: 16px;
+        font-weight: normal;
+        margin: 5px 0;
+        padding: 3px 0;
+      }
+      .submenu a:hover {
+        color: #0000ff;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="menu">
+      <h1>Seren Sunghyun Park</h1>
+      <ul>
+        <li>
+          <a href="#">Works</a>
+          <ul class="submenu">
+            <li><a href="installation.html" target="_blank">Installation</a></li>
+            <li><a href="design.html" target="_blank">Graphic Design / UIUX</a></li>
+            <li><a href="photography.html" target="_blank">Film / Photography</a></li>
+            <li><a href="painting.html" target="_blank">Painting / Drawing</a></li>
+          </ul>
+        </li>
+        <li><a href="resume.html" target="_blank">Resume</a></li>
+        <li><a href="https://www.instagram.com/shyvnfolio/?hl=en" target="_blank">Instagram</a></li>
+      </ul>
+    </div>
+    <div class="main">
+      <img src="Landing Image.jpg" alt="Main Page Image">
+    </div>
+  </body>
+</html>
